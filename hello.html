@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Basic Website</title>
+</head>
+<body>
+    <h1>This code takes marks in percentage and determines your performance based on it</h1>
+    <p>Check out the below code</p>
+    <pre><code>#include <stdio.h>
+        int main(){
+            int marks;
+            printf("Write your percentage\n");
+            scanf("%d", &marks);
+            if (marks >= 91 && marks <= 100)
+            {
+               printf("You are Excellent");
+            }
+            else if (marks >= 81 && marks <= 90)
+            {
+               printf("You are Very Good");
+            }
+            else if (marks >= 71 && marks <= 80)
+            {
+               printf("You are Good");
+            }
+            else if (marks >= 61 && marks <= 70)
+            {
+               printf("You can do better");
+            }
+            else if (marks >= 51 && marks <= 60)
+            {
+               printf("You are average");
+            }
+            else if (marks >= 41 && marks <= 50)
+            {
+               printf("You are below average");
+            }
+            else if (marks < 40)
+            {
+               printf("You are fail");
+            }
+            
+        return 0;
+        }
+        </code></pre>
+</body>
+</html>
